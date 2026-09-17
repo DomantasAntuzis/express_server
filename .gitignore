@@ -1,0 +1,7 @@
+src/migrations
+src/seeders
+src
+/node_modules
+/seeders
+things.md
+.env
