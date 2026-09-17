@@ -1,4 +1,4 @@
-const authenticate = async (req, res, next) => {
+const authenticate = (req, res, next) => {
   if (!req.session.user) {
     return res.status(401).json({msg: "unauthorized: No session. You should login"});
   }
